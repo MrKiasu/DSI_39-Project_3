@@ -62,17 +62,17 @@ if st.button('Generate my profile!'):
         st.write("Below are some recommendations suitable for your attachment style :wink:")
         col1, col2, col3 = st.columns(3, gap="medium")
         with col1:
-            image1 = Image.open('streamlit_images/avoidant_book_1.jpg')
+            image1 = Image.open('streamlit_images/avoidant_book_1.png')
             st.image(image1, width = 150, use_column_width="always")
             st.link_button("Click to read more","https://www.amazon.sg/Healing-Avoidant-Attachment-Style-Workbook/dp/B0C9SFXJPG/ref=sr_1_1?qid=1695651557&refinements=p_27%3AHenry+Gottman&s=books&sr=1-1", use_container_width=True)
 
         with col2:
-            image2 = Image.open('streamlit_images/avoidant_book_2.jpg')
+            image2 = Image.open('streamlit_images/avoidant_book_2.png')
             st.image(image2, width = 150, use_column_width="always")
             st.link_button("Click to read more","https://www.amazon.sg/Avoidant-Attachment-More-Effective-Relationships/dp/B0B2HWK7KD/ref=sr_1_3?crid=SD48F1UGEPHR&keywords=avoidant+attachment&qid=1695651614&s=books&sprefix=avoidant+attachment%2Cstripbooks%2C253&sr=1-3", use_container_width=True)
 
         with col3:
-            image3 = Image.open('streamlit_images/avoidant_book_3.jpg')
+            image3 = Image.open('streamlit_images/avoidant_book_3.png')
             st.image(image3, width = 150,use_column_width="always")
             st.link_button("Click to read more","https://www.amazon.sg/Avoidant-Attachment-Recovery-Relationships-Unhealthy/dp/B0CHLH9WWS/ref=sr_1_5?crid=SD48F1UGEPHR&keywords=avoidant+attachment&qid=1695651689&s=books&sprefix=avoidant+attachment%2Cstripbooks%2C253&sr=1-5", use_container_width=True)
 

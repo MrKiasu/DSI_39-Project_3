@@ -17,6 +17,9 @@ from PIL import Image
 st.title("Understanding your attachment style :smile:")
 st.subheader("The application is developed to help you understand you and your partner's attachment style, and provide necessary resources to help you in your relationship.")
 
+image = Image.open("banner.png")  # Replace "your_image_file.jpg" with the path to your image file
+st.image(image, caption="Understanding your attachment style", use_column_width=True)
+
 st.divider()
 
 answer_1 = st.selectbox(

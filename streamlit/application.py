@@ -12,13 +12,14 @@ import streamlit as st
 import numpy as np
 import time
 from PIL import Image
+import pickle
+import pandas as pd
 
 
 st.title("Understanding your attachment style :smile:")
 st.subheader("The application is developed to help you understand you and your partner's attachment style, and provide necessary resources to help you in your relationship.")
 
-image = Image.open("banner.png")
-st.image(image, caption="Understanding your attachment style", use_column_width=True)
+st.image("https://clipart-library.com/images/rcnrp8jzi.jpg", caption="Understanding your attachment style", use_column_width=True)
 
 st.divider()
 
@@ -33,13 +34,20 @@ answer_2 = st.radio(
 answer_3 = st.text_area("***Please do share with us your recent experience with your partner.***")
 
 
+
+with open("our_model.pkl", 'rb') as our_model:
+    model = pickle.load(our_model)
+
 if st.button('Generate my profile!'):
     with st.spinner('Wait for it...'):
-        time.sleep(3)
-        prediction = 0
+        
+        record = answer_1 + " " + answer_2 + " " + answer_3
+        record_Series = pd.Series(record) 
+        prediction = model.predict(record_Series)
+        
     st.success('Done!')
     
-    if prediction == 0:
+    if prediction == 1:
        st.divider() 
        st.write("Your attachment style is ***Anxious***!")
        st.write("Anxious attachment types are often nervous and stressed about their relationships. They need constant reassurance and affection from their partner.")

@@ -41,3 +41,16 @@ Source: Reddit
 - Information and recommendations are provided based on the attachment style for couples to improve on communicating with each other. 
 
 ---
+
+### Recommendations
+
+## Phase 1 - First release of the app on:
+- MSF website
+- MSF’s Telegram channel (i.e.,MSFCares)
+
+## Phase 2 - Improve accuracy of classifier model to ≥0.95 through:
+- exploring ways to tune the existing classifier model;
+- exploring the use of other classifier models (e.g., XGBoost)
+ 
+## Phase 3 - Second release of the app with:
+- expanded coverage of the other two attachment styles

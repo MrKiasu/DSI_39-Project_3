@@ -36,12 +36,8 @@ Source: Reddit
 
 ### Conclusion
 
-- Developed an app that can classify individuals and their partner as either anxious or avoidant attachment style with 0.9 accuracy.
-- Recommendations are provided based on the attachment style.
-
----
-
-### Recommendations
-
+- Our classifier model, Logistic Regression with Count Vectorizer, is able to classify individuals as either anxious or avoidant attachment style with 0.9 accuracy. 
+- With this classifier model, we developed an easy-to-use self-help tool to help couples identify their attachment styles. 
+- Information and recommendations are provided based on the attachment style.
 
 ---

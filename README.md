@@ -1,4 +1,4 @@
-![image](https://github.com/MrKiasu/DSI_39-Project_3/assets/142147568/52b1471c-30a2-4f61-be75-10fdfb8970c4)# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: A self-help tool for couples to understand attachment style
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: A self-help tool for couples to understand attachment style
 
 ### Problem Statement
 

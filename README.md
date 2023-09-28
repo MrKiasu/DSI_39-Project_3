@@ -2,20 +2,14 @@
 
 ### Problem Statement
 
-With rising resale flat prices, affordable public housing has become a concern to new homeowners. According to an annual wellness survey conducted by OCBC bank, 56% of Singaporeans who are in their 20s are worried that they cannot afford a home. 
 
-As many aspiring homeowners will be financing their homes using their CPF savings, knowing the price of the HDB resale flat that they wish to purchase can help them better plan their finances and CPF contributions. 
-
-So, how can the CPF Board assist these potential homeowners?
-
-This project explores the key features that affect HDB resale prices in Singapore using data science methodologies. The objective is to build and deploy a reliable HDB resale price calculator that is intuitive and easy for potential homeowners to use, to help them understand what could be the resale price of their desired flat based on the key features. 
 
 ---
 
 ### Data Used
 
-Source: Kaggle (https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/data)
-* [`train.csv`](/datasets/train.csv): Training data containing HDB resale price and 76 features
+Source: Reddit 
+* [`train.csv`]([/datasets/train.csv](https://www.reddit.com/r/AnxiousAttachment/)): A subreddit for people with anxious attachment style to learn more about the style, share experiences and find support.
 * [`test.csv`](/datasets/test.csv): Test data containing 76 features
 
 ---

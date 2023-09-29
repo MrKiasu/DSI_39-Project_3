@@ -48,6 +48,7 @@ Source: Reddit
 - MSF website
 - MSF’s Telegram channel (i.e.,MSFCares)
 #### Phase 2 - Improve accuracy of classifier model to ≥0.95 through:
+- collecting more data from other similar subreddits
 - exploring ways to tune the existing classifier model;
 - exploring the use of other classifier models (e.g., XGBoost) 
 #### Phase 3 - Second release of the app with:
